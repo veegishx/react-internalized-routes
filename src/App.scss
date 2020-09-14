@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&family=Nunito&family=Roboto:wght@500&display=swap');
+
+body {
+  overflow: hidden;
+}
+
+.primary-navigation{
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px;
+  position: relative;
+  h1 {
+    color: #00A3FF;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  & span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  ul {
+    list-style: none;
+    right: 30px;
+    position: absolute;
+    top: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
+.intro {
+  padding: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
