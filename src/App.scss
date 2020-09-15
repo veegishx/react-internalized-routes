@@ -37,10 +37,28 @@ body {
 
 .intro {
   padding: 10px;
+  .intro-title {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+  }
 }
 
 .App {
   text-align: center;
+  button {
+      border: none;
+      outline: none;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 4px;
+      a {
+        text-decoration: none;
+        padding: 10px;
+        position: relative;
+        margin: 0px auto;
+    }
+  }
 }
 
 .App-logo {

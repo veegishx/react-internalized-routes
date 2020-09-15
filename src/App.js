@@ -98,10 +98,10 @@ function App() {
             <span>{ translate("tagline") }</span>
             <ul>
                 <li>
-                  <button onClick={ ()=> updateUrl('home') }><Link to={`/${locale}/home`}>Home</Link></button>
+                  <span onClick={ ()=> updateUrl('home') }><Link to={`/${locale}/home`}>{ translate("home-link-label") }</Link></span>
                 </li>
                 <li>
-                  <button onClick={ ()=> updateUrl('contact') }><Link  to={`/${locale}/contact`}>Contact</Link></button>
+                  <span onClick={ ()=> updateUrl('contact') }><Link  to={`/${locale}/contact`}>{ translate("contact-link-label") }</Link></span>
                 </li>
             </ul>
           </nav>
