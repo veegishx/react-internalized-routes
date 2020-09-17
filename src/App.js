@@ -3,8 +3,8 @@ import './App.scss';
 
 import { I18nProvider, LOCALES } from './i18n';
 
-import { Home } from './components/Home/Home';
-import { Contact } from './components/Contact/Contact';
+import { Home } from './components/Navigation/Home/Home';
+import { Contact } from './components/Navigation/Contact/Contact';
 
 import {
   BrowserRouter as Router,
